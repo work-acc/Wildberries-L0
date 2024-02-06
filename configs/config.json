@@ -1,0 +1,16 @@
+{
+  "api": {
+    "port": 1234
+  },
+  "nats": {
+    "url": "nats://nats-streaming:4222",
+    "cluster_id": "microservice",
+    "client_id": "microservice_a"
+  },
+  "postgres": {
+    "host": "db",
+    "port": 5432,
+    "db_name": "postgres",
+    "sslmode": "disable"
+  }
+}
